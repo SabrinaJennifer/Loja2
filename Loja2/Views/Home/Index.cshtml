@@ -1,0 +1,18 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Loja</title>
+</head>
+<body>
+    <h1>Bem-vindo à Loja</h1>
+    <p>Cliente: @ViewBag.Cliente.Nome</p>
+    <p>Vendedor: @ViewBag.Cliente.Vendedor.Nome</p>
+    <p>Produto: @ViewBag.Produto.Nome</p>
+    <p>Preço: @ViewBag.Produto.Preco</p>
+    <p>Marca: @ViewBag.Produto.Marca.Nome</p>
+</body>
+</html>
